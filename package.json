@@ -1,0 +1,23 @@
+{
+   "name":"ForgeScript-Bot-Template",
+   "version":"1.0.1",
+   "description":"A bot template for ForgeScript.",
+   "main":"index.js",
+   "scripts":{
+      "start":"node index.js"
+   },
+   "repository":{
+      "type":"git",
+      "url":"git+https://github.com/yuminanase/ForgeScript-Bot-Template.git"
+   },
+   "keywords":[
+      "discord-bot-template",
+      "forgescript-bot-template"
+   ],
+   "author":"UndefinedBlastro",
+   "license":"Apache-2.0",
+   "dependencies":{
+      "forgedb":"github:tryforge/ForgeDB",
+      "forgescript":"github:tryforge/ForgeScript"
+   }
+}
