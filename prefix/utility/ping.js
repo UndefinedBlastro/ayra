@@ -8,5 +8,5 @@ $wait[1000]
 $function[$editMessage[$channelID;$get[msg];$title[🏓 | Pong!]
 $description[**Client Latency:** \`$get[1st]ms\`
 **Roundtrip:** \`$math[$executionTime-1000]ms\`]
-$color[c1baff]]]`
+$footer[🖼 Ping Fetched | $Timestamp] $color[#c1baff]$author[🖼 Bot Tool]]]`
 }
