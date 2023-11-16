@@ -17,5 +17,5 @@ $let[rare;$randomNumber[0;110]]
 $let[cookieamount;$randomNumber[0;40]]
         $let[supercookieamount;$randomNumber[0;2]]
 
-        $if[$get[rare]==109;$setVar[supercookie;$authorID;$sum[$getVar[supercookie;$authorID];$get[supercookieamount]]];$setVar[cookie;$authorID;$sum[$getVar[cookie;$authorID];$get[cookieamount]]]] <@$authorID> Claimed some $if[$get[rare]==100;Super Cookie;Cookie]`
+        $if[$get[rare]==109;$setVar[supercookie;$authorID;$sum[$getVar[supercookie;$authorID];$get[supercookieamount]]];$setVar[cookie;$authorID;$sum[$getVar[cookie;$authorID];$get[cookieamount]]]] <@$authorID> Claimed some $if[$get[rare]==109;Super Cookie;Cookie]`
 }
