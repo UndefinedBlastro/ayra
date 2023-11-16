@@ -3,11 +3,11 @@ module.exports = {
     type: "messageCreate",
     code: `
     $sendMessage[$channelID;$title[Shop] $addField[<:supercookie:1165922365763506176> Convert: Cookies to Supercookies;
-	Convert 100 <:cookie:1165922372138848267> to 1 <:supercookie:1165922365763506176>
-	> 100 <:cookie:1165922372138848267>
+	Convert 200 <:cookie:1165922372138848267> to 1 <:supercookie:1165922365763506176>
+	> 200 <:cookie:1165922372138848267>
 	> .convertc2s
 ]
-$addField[<:cookie:1165922372138848267> Convert: SuperCookies to cookies;Convert 1 <:supercookie:1165922365763506176> to 100 <:cookie:1165922372138848267>
+$addField[<:cookie:1165922372138848267> Convert: SuperCookies to cookies;Convert 1 <:supercookie:1165922365763506176> to 200 <:cookie:1165922372138848267>
 	> 1 <:supercookie:1165922365763506176>
 	> .converts2c]
 $addField[ <:custom:1164951112340754453> Custom Command; Users can request for custom commands personalised for their likings. *Once in lifetime*
