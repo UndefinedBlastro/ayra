@@ -13,9 +13,9 @@ $addField[<:cookie:1165922372138848267> Convert: SuperCookies to cookies;Convert
 $addField[ <:custom:1164951112340754453> Custom Command; Users can request for custom commands personalised for their likings. *Once in lifetime*
 	> 300 <:supercookie:1165922365763506176>
 	> .buy command]
-$addField[  :ring: Ring: ;Consumable item used for marriage
+$addField[  :ring: Custom Role: ;Users can request for custom role personalised for their likings.
 	> 40 <:supercookie:1165922365763506176>
-	> .buy ring]
+	> .buy role]
 $addField[ :person_with_veil: Marriage: ;adds a slot for marriage
 	> 15 <:supercookie:1165922365763506176>
 	> .buy slot]
