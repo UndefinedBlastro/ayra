@@ -1,0 +1,5 @@
+module.exports = {
+    name: "",
+    type: "messageCreate",
+    code: `$onlyIf[$channelID==983984426172178444]$if[$isNumber[$getVar[level-$guildID;$authorID]];;$setVar[level-$guildID;$authorID;1]]$setVar[xp-$guildID;$authorID;$sum[$getVar[xp-$guildID;$authorID];$randomNumber[2;9;false];]]$if[$getVar[xp-$guildID;$authorID]>=$multi[250;$getVar[level-$guildID;$authorID]];$setVar[level-$guildID;$authorID;$sum[$getVar[level-$guildID;$authorID];1]]$setVar[xp-$guildID;$authorID;0]<@$authorID> has leveled up to level $getVar[level-$guildID;$authorID]. $attachment[$httpRequest[https://api.aggelos-007.xyz/welcomecard?background=https://cdn.discordapp.com/banners/982931539941818408/e25b0d1398cea85e58d1b75815ceb95e.webp?size=2048&text1=Level+Up&text2=Congratulations!+You+leveled+up+to+level+$getVar[level-$guildID;$authorID]&text3=They've+been+rewarded+with+$multi[$getVar[level-$guildID;$authorID];5]+cookies!&avatar=$userAvatar[$mentioned[0;true];;png]&blur=false]]$setVar[cookie;$authorID;$sum[$getVar[cookie;$authorID];$multi[$getVar[level-$guildID;$authorID];5]]]]`
+}
